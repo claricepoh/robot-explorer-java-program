@@ -19,7 +19,7 @@ public class TestInputFormatter {
 	public final ExpectedException exception = ExpectedException.none();
 	
 	@Test
-     public void _1_invalidGridSize1() throws Exception {
+        public void _1_invalidGridSize1() throws Exception {
 		
 		InputFormatter instance = InputFormatter.getInputFormatter();
 		
