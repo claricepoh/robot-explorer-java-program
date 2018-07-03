@@ -14,7 +14,7 @@ public class TestGrid {
 		assertEquals(4, instance.getMaxCoordinateX());
 		assertEquals(5, instance.getMaxCoordinateY()); 
 		
-	    instance.createRobotExplorer(new String[]{"1", "2", "N"});
+	        instance.createRobotExplorer(new String[]{"1", "2", "N"});
 		
 		instance.instructRobotExplorer(new String[]{"R", "M", "M"});
 		
