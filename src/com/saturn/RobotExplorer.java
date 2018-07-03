@@ -17,9 +17,9 @@ public class RobotExplorer {
 	
 	private Grid grid; 
 	
-	private int xCoordinate;   								// representation of x coordinates as in Grid
-	private int yCoordinate;   								// representation of y coordinates as in Grid
-	private Orientation orientation;        				// representation of four cardinal compass points: North, South, East, West 
+	private int xCoordinate;   				     // representation of x coordinates as in Grid
+	private int yCoordinate;   				    // representation of y coordinates as in Grid
+	private Orientation orientation;        		   // representation of four cardinal compass points: North, South, East, West 
 
 	public RobotExplorer(Grid grid, String[] inputStrTokens) {
 		this.grid = grid;
