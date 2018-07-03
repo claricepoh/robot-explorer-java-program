@@ -67,10 +67,10 @@ public class InputFormatter {
 						nextState = State.ROBOT_EXPLORER_POSITION_INITIALIZATION; 
 					}
 				}
-			    break;
-		    default: 
-		    	// Unsupported state for input message 
-		    	break; 
+			    	break;
+		    	default: 
+		    		// Unsupported state for input message 
+		    		break; 
 		}
 	}
 	
