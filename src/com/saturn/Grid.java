@@ -27,7 +27,7 @@ public class Grid {
 	public static Grid getInstance(String[] inputStrTokens) {
 		if (instance == null) {
 			instance = new Grid( Integer.parseInt(inputStrTokens[0]),    // index 0 represents x-coordinate
-								 Integer.parseInt(inputStrTokens[1]) );  // index 1 represents y-coordinate
+				             Integer.parseInt(inputStrTokens[1]) );  // index 1 represents y-coordinate
 		}
 		return instance; 
 	}
